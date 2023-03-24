@@ -1,4 +1,4 @@
-# nextleap-css-week2-milestone
+# Nextleap CSS Week 2 Milestone
 
 ## Project Overview
 - To create the CSS framework for a Flipkart Product Listing Page.
