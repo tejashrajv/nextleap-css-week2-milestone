@@ -67,7 +67,9 @@ section {
 .reviews {
   font-size: 0.8rem;
 }
-
+.product-left-details h2 {
+  font-size: 1.25rem;
+}
 .product-left-details ul {
   font-size: 12px;
   margin-left: 19px;
@@ -148,4 +150,88 @@ footer div a:hover {
 
 .office-add {
   width: 20%;
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    padding: 1.5% 5%;
+  }
+  header > img {
+    height: 25px;
+  }
+  header > input {
+    width: 30%;
+  }
+  .header-links {
+    font-size: 12px;
+    width: 50%;
+  }
+
+  .product {
+    flex-direction: column;
+  }
+
+  .product-left {
+    flex-direction: column;
+  }
+
+  .product-left > img {
+    height: 150px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .mail {
+    width: initial;
+    border-left: initial;
+    padding-left: initial;
+  }
+
+  .office-add {
+    width: initial;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 1.5% 5%;
+  }
+  header > img {
+    height: 25px;
+  }
+  header > input {
+    width: 30%;
+  }
+  .header-links {
+    font-size: 12px;
+    width: 50%;
+  }
+
+  .product {
+    flex-direction: column;
+  }
+
+  .product-left {
+    flex-direction: column;
+  }
+
+  .product-left > img {
+    height: 150px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .mail {
+    width: initial;
+    border-left: initial;
+    padding-left: initial;
+  }
+
+  .office-add {
+    width: initial;
+  }
 }
